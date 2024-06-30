@@ -1,0 +1,63 @@
+.border{
+    border: 2px solid red;
+    margin: 3px;
+}
+
+.flex{
+    display: flex;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.items-center{
+    align-items: center;
+} 
+
+.bg-black{
+    background-color: black;
+    color: white;
+    height: 100vh;
+}
+
+.invert{
+    filter: invert(1); /* (by this the color will change when we use in front of the images) */
+}
+
+.bg-grey{
+    background-color: #121212;
+}
+
+ .rounded{
+    border-radius: 7px;
+ }
+
+ .m-1{
+    margin: 5px;
+ }
+
+ .p-1{
+    padding: 10px;
+ }
+
+ /* scrollbar track */
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+/* scrollbar thumb */
+::-webkit-scrollbar-thumb {
+    background-color: rgba(255, 255, 255, 0.5); /* Adjust the opacity as needed */
+    border-radius: 6px;
+}
+
+/* scrollbar thumb on hover */
+::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(255, 255, 255, 0.7); /* Adjust the opacity as needed */
+}
+
+/* scrollbar track when scrollbar is actively being dragged */
+::-webkit-scrollbar-thumb:active {
+    background-color: rgba(255, 255, 255, 0.8); /* Adjust the opacity as needed */
+}
